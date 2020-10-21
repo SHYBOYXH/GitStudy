@@ -1,6 +1,13 @@
 package main;
 
 public class sort implements Sort_interface{
+/*
+ * ’≈–°∑…
+ * 
+ * ≈≈–Ú
+ * 
+ * */
+	
     public int [] Sort (int[] arr) {
    	 for(int j = 0;j < arr.length;j++) {
    		 for(int i = 0;i < arr.length-1;i++)

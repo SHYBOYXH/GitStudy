@@ -3,7 +3,12 @@ package main;
 import java.util.Arrays;
 
 public class Mid implements Mid_interface {
-
+/*
+ *  ²Ü¾°Ïé
+ *  
+ *  ÖĞÎ»Êı
+ *  
+ * */
 	@Override
 	public int[] mul(int[] array) {
 		Arrays.sort(array);

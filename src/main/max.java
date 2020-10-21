@@ -1,6 +1,11 @@
 package main;
 
 public class max implements Max_interface{
+/*
+ * 姜晓林
+ * 
+ * 最大值
+ * */
 	public int[] print(int[] array){	
 		int Max = array[0];
 		for(int i=0;i<array.length;i++){
