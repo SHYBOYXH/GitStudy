@@ -1,16 +1,15 @@
 package main;
 
-public class average {
-	public static void main(String[] args) {
-        int[] array = {1,2,3,4,5,1,2,8};
-        System.out.println(average(array));
-    }
+public class average implements Average_interface{
+	
 
-    private static double average(int[] array) {
+    public int [] aver(int [] array) {
         int sum = 0;
         for(int x : array){
             sum += x;
         }
-        return (double)sum/(double)array.length;
+        int a=array.length;
+        int s=sum/a;
+        return new int [] {s};
     }
 }
