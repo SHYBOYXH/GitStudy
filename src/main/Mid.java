@@ -6,7 +6,7 @@ public class Mid implements Mid_interface {
 
 	@Override
 	public int[] mul(int[] array) {
-Arrays.sort(array);
+		Arrays.sort(array);
 		
 		int m=array.length/2;
 		int mu=0;
