@@ -2,10 +2,11 @@ package main;
 
 import java.util.Arrays;
 
-public class Mid {
-	public int[] Mul(int [] array){
-		
-		Arrays.sort(array);
+public class Mid implements Mid_interface {
+
+	@Override
+	public int[] mul(int[] array) {
+Arrays.sort(array);
 		
 		int m=array.length/2;
 		int mu=0;
@@ -18,4 +19,6 @@ public class Mid {
 		int []s= {mu};
 		return s;
 	}
+
+	
 }

@@ -18,9 +18,9 @@ class Test_Mid {
 		Mid mid_find_real=new Mid();
 		Mid mid_find=EasyMock.createMock(Mid.class);
 		
-		EasyMock.expect(mid_find.Mul(s)).andReturn(mid_find_real.Mul(s));
+		EasyMock.expect(mid_find.mul(s)).andReturn(mid_find_real.mul(s));
 		EasyMock.replay(mid_find);
-		assertArrayEquals(new int[] {55},mid_find.Mul(s));
+		assertArrayEquals(new int[] {55},mid_find.mul(s));
 	}
 
 	
