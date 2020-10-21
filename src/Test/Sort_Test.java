@@ -6,15 +6,15 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.easymock.EasyMock;
 import org.junit.jupiter.api.Test;
 
-import main.sort;
+import main.Sort;
 
 class Sort_Test {
 
 	@Test
 	void test() {
 		int [] s= {11,22,33,44,66,55,77,88,99};
-		sort sort_find_real=new sort();
-		sort sort_find=EasyMock.createMock(sort.class);
+		Sort sort_find_real=new Sort();
+		Sort sort_find=EasyMock.createMock(Sort.class);
 		
 		EasyMock.expect(sort_find.Sort(s)).andReturn(sort_find_real.Sort(s));
 		EasyMock.replay(sort_find);

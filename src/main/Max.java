@@ -1,6 +1,6 @@
 package main;
 
-public class max implements Max_interface{
+public class Max implements Max_interface{
 /*
  * ½ªÏşÁÖ
  * 

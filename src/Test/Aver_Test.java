@@ -6,15 +6,15 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.easymock.EasyMock;
 import org.junit.jupiter.api.Test;
 
-import main.average;
+import main.Average;
 
 class Aver_Test {
 
 	@Test
 	void test() {
 		int [] s= {11,11,11,11,11,11};
-		average average_find_real=new average();
-		average average_find=EasyMock.createMock(average.class);
+		Average average_find_real=new Average();
+		Average average_find=EasyMock.createMock(Average.class);
 		
 		EasyMock.expect(average_find.aver(s)).andReturn(average_find_real.aver(s));
 		EasyMock.replay(average_find);

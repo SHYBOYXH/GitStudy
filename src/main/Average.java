@@ -1,6 +1,6 @@
 package main;
 
-public class average implements Average_interface{
+public class Average implements Average_interface{
 	
 /*
  * ÓÚ»¢

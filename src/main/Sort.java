@@ -1,6 +1,6 @@
 package main;
 
-public class sort implements Sort_interface{
+public class Sort implements Sort_interface{
 /*
  * ’≈–°∑…
  * 
